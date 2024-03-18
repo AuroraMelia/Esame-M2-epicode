@@ -1,0 +1,322 @@
+body{
+    background-image:url(./assets/img/sfondo.png);
+    font-family:"Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 402;
+    padding: 18px;
+    line-height: 25px;
+}
+
+@media (min-width: 460px) {
+body{
+    margin: 40px;
+    }
+}
+
+header {font-family: "poppins",sans-serif;
+    background-color: rgb(10, 113, 154);
+    box-shadow: 0px 2px 5px black;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 19px;
+}
+
+
+@media (min-width:460px) {
+    header {
+        font-size: 1.4em;
+        text-align: center;
+    }
+    
+
+}
+
+@media (min-widht: 460px) {
+    main h1{
+    padding: 19px;
+    text-align: center;
+    }
+
+
+}
+
+header div p {
+font-size: 1.0em;
+color: white;
+margin-top: 4px;
+text-transform: uppercase;
+
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(241, 246, 249);
+    
+}
+
+
+header nav ul li{
+    margin-left: 9px;
+    display: inline-block;
+   
+
+}
+
+header nav ul li{
+    margin-left: 9px;
+    display: inline-block;
+    
+}
+
+header nav ul li::before{
+    content: "\2605" ;
+    color: white;
+    font-size: 0.7em;
+    margin-right: 5px;
+    
+
+}
+
+main
+{box-shadow: 0px 2px 5px black;
+    background-color: white; 
+}
+
+
+article {
+    margin: 9px;
+}
+
+
+article p i {
+    color: grey;
+}
+
+article p span{
+    color: grey;
+}
+
+article p strong{
+    font-weight: bold; 
+    color: rgb(182, 45, 210);
+    
+}
+
+p{
+padding: 9px;
+}
+
+
+ul li{
+margin-bottom: 9px;
+margin-left: 33px;
+padding: 3px;
+
+}
+
+ol li{
+    margin-left: 33px; 
+    padding: 3px;
+   
+}
+
+h1{
+    line-height: 33px;
+    text-align: left;
+    padding: 6px;
+    font-size: 1.7em;
+    font-weight: bold;
+    
+}
+
+ul li code{
+    border-radius: 4px;
+    background-color: rgb(206,198, 198);
+    
+}
+
+
+table{
+    padding: 19px;
+    width: 98%;
+    margin: 18px;
+    margin: 0 0;
+    text-align: center;
+   
+}
+
+@media(min-width: 460px) {
+    table{
+        margin-left: 23%;
+        width: 48%;
+   }
+}
+
+header ul {
+    list-style: none;
+}
+
+
+header ul li{
+    display: inline;
+}
+
+
+caption{
+    font-style: italic;
+    font-weight: bold;
+    padding: 3px;
+   
+}
+
+tr th{ 
+    color: white;
+    background-color:rgb(9, 63, 128);
+}   
+
+table thead tr th{
+    text-align: center;
+    padding: 9px;
+    
+}
+
+td{
+    padding: 9px;
+}
+
+
+tbody tr:nth-child(odd) {
+      background-color: rgb(212, 209, 206);
+}
+
+
+tbody tr:nth-child(even) {
+      background-color: rgb(152, 150, 147);
+}
+
+
+main aside{
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    
+}
+
+iframe {
+    margin-bottom: 9px;
+    margin: 9 9px;
+   width: 98%;
+    
+}
+
+
+@media (min-width:460px) {
+    iframe {
+        height: 615px;
+        margin-left: 9%;
+        width: 72%;
+        padding: 18px;
+    }
+}
+
+
+section h2 {
+    background-color: rgb(206, 211, 215);
+    box-shadow: 0px 2px 6px black;
+    font-size: 1em;
+    font-weight: bold;
+    width: 28%;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+section{
+    padding: 9px;
+    background-color: rgb(173, 176, 179);
+    
+}
+
+@media (min-width:460px) {
+    section{
+        margin-left: 33px;
+        width: 28%;
+    }
+    
+}
+
+    section button{
+        font-weight: bold;
+        background-color: rgb(5, 178, 201);
+        padding: 4px;
+        color: white;
+        
+}
+
+    section input{
+        padding: 4px;
+        border-bottom: dashed 0.1em;
+        
+    }
+
+    
+    
+    aside h2{
+        font-size: 1.2;
+        font-weight: 515;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 9px;
+        
+     }
+
+    aside div {
+        padding: 9px;
+        background-color: rgb(199, 205, 205);
+        margin: 14px;
+        
+    
+    }
+
+    @media(min-width:460px) {
+        aside{
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    aside div a {
+        font-weight: bold;
+        color: rgb(6, 171, 200);
+        
+   
+    }
+
+    
+    aside div p{
+        text-align: left ;
+    
+    }
+
+    footer{
+        text-align: center;
+        color: white;
+        font-size: 0.7em;
+        box-shadow: 0 2px 5px black;
+        padding: 9px;
+        background-color: rgb(6, 135, 135);
+        
+    }
+
+    footer address a{
+        font-weight: bold;
+        font-size: 1.3em;
+        color: rgb(208, 7, 239);
+        
+    }
+
+
+
